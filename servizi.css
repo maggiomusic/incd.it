@@ -1,0 +1,52 @@
+/* Pagine dei servizi: stessa grafica della home (styles.css) */
+.srv-page { background: #7EC8E3; }
+.srv-header {
+    display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap;
+    max-width: 1100px; margin: 0 auto; padding: 1.5rem 2rem;
+}
+.srv-logo img { display: block; height: auto; max-width: 160px; }
+.srv-nav { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; list-style: none; }
+.srv-nav a { color: #1a1a1a; text-decoration: none; font-weight: 700; font-size: 15px; }
+.srv-nav a:hover, .srv-nav a[aria-current="page"] { color: #E94B3C; }
+.srv-main { max-width: 900px; margin: 0 auto; padding: 1rem 2rem 4rem; }
+.srv-crumbs { font-size: 14px; margin-bottom: 1rem; }
+.srv-crumbs a { color: #1a1a1a; }
+.srv-main h1 { font-size: clamp(28px, 4.5vw, 42px); color: #E94B3C; font-weight: 900; line-height: 1.15; margin-bottom: 1.2rem; }
+.srv-lead { font-size: 19px; line-height: 1.7; margin-bottom: 1.5rem; }
+.srv-cta { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+.srv-cta a {
+    display: inline-block; padding: .8rem 1.6rem; border-radius: 999px; font-weight: 700; text-decoration: none;
+    background: #E94B3C; color: #fff; border: 2px solid #E94B3C;
+}
+.srv-cta a + a { background: transparent; color: #1a1a1a; border-color: #1a1a1a; }
+.srv-block {
+    background: rgba(255, 255, 255, 0.5); border: 2px solid rgba(233, 75, 60, 0.2); border-radius: 20px;
+    padding: 2rem; margin-bottom: 1.5rem;
+}
+.srv-block h2 { font-size: 22px; color: #E94B3C; font-weight: 900; margin-bottom: 1rem; }
+.srv-block p { font-size: 17px; line-height: 1.75; margin-bottom: 1rem; }
+.srv-block p:last-child { margin-bottom: 0; }
+.srv-block ul { padding-left: 1.2rem; margin-bottom: 1rem; }
+.srv-block li { font-size: 17px; line-height: 1.65; margin-bottom: .5rem; }
+.srv-block a { color: #1a1a1a; }
+.srv-videos { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.2rem; }
+.srv-video { display: block; text-decoration: none; color: #1a1a1a; }
+.srv-thumb { display: block; position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 16 / 9; background: #1a1a1a; }
+.srv-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.srv-thumb::after {
+    content: ""; position: absolute; left: 50%; top: 50%; width: 54px; height: 38px; transform: translate(-50%, -50%);
+    border-radius: 10px; background: rgba(233, 75, 60, .92)
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E") center / 22px no-repeat;
+}
+.srv-vtitle { display: block; font-weight: 700; font-size: 15px; line-height: 1.4; margin-top: .5rem; }
+.srv-faq details { border-top: 1px solid rgba(26, 26, 26, .15); padding: .9rem 0; }
+.srv-faq details:first-of-type { border-top: 0; }
+.srv-faq summary { cursor: pointer; font-weight: 700; font-size: 17px; }
+.srv-faq details p { margin-top: .6rem; }
+.srv-where { max-width: 760px; margin: 0 auto 1rem; font-size: 15px; }
+.srv-where a { color: #1a1a1a; }
+@media (max-width: 600px) {
+    .srv-header, .srv-main { padding-left: 1rem; padding-right: 1rem; }
+    .srv-block { padding: 1.3rem; }
+    .srv-lead { font-size: 17px; }
+}
