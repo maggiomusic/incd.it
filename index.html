@@ -1234,6 +1234,18 @@
             <article><img src="img/team-luca.jpg" alt="Luca Maggioni" width="610" height="700" loading="lazy"><div><h3>Luca Maggioni</h3><p class="meta">Fondatore e producer</p><p>Musicista – violista, con una lunga carriera in orchestra, teatro e musica da camera, dal repertorio classico alla musica contemporanea. Consulente musicale e attivista nel sociale con progetti di vibroacustica e realtà virtuale; presidente del SETTICLAVIO aps.</p><a class="more" href="https://www.lucamaggioni.it/" target="_blank" rel="noopener">lucamaggioni.it</a></div></article>
             <article><img src="img/team-danilo.jpg" alt="Danilo Radice" width="525" height="700" loading="lazy"><div><h3>Danilo Radice</h3><p class="meta">Sound engineer e producer</p><p>Per oltre 40 anni responsabile dei sistemi audio e video in Mediaset. Esperienza consolidata in produzioni musicali, registrazioni live e service audio per eventi; specializzato in mix e mastering.</p></div></article>
         </div>
+        <div class="tv">
+            <button class="yt" type="button" data-yt="FjE25f-IW-U" aria-label="Guarda l'intervista a INCD STUDIO su Canale Italia">
+                <img src="https://i.ytimg.com/vi/FjE25f-IW-U/hqdefault.jpg" alt="Intervista a INCD STUDIO su Canale Italia, Storytime, 7 marzo 2024" width="480" height="360" loading="lazy">
+                <span class="play" aria-hidden="true"></span>
+            </button>
+            <div class="tv-txt">
+                <p class="eyebrow">In TV</p>
+                <h3>L'intervista su Canale Italia</h3>
+                <p>Luca Maggioni e Danilo Radice raccontano INCD STUDIO a «Storytime», su Canale Italia, il 7 marzo 2024.</p>
+                <a class="more" href="https://www.youtube.com/watch?v=FjE25f-IW-U" target="_blank" rel="noopener">Guarda su YouTube</a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -1293,5 +1305,6 @@
     </div>
     <p class="wrap legal">© 2026 INCD STUDIO · <a href="mailto:info@incd.it">info@incd.it</a> · <a href="tel:+393204364489">+39 320 436 4489</a></p>
 </footer>
+<script>document.querySelectorAll('.yt').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';f.title=b.getAttribute('aria-label');f.allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';f.allowFullscreen=true;b.replaceWith(f);});});</script>
 </body>
 </html>

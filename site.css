@@ -181,6 +181,17 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .eyebrow-head { margin: 20px 0 0; }
 .page-head .eyebrow-head + h1 { margin-top: 6px; }
 
+/* intervista video */
+.tv { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center; margin-top: 56px; padding-top: 48px; border-top: 1px solid var(--line); }
+.yt, .tv iframe { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; padding: 0; border-radius: var(--radius); overflow: hidden; background: #000; cursor: pointer; }
+.yt img { width: 100%; height: 100%; object-fit: cover; }
+.yt .play { position: absolute; left: 50%; top: 50%; width: 76px; height: 76px; margin: -38px 0 0 -38px; border-radius: 50%; background: var(--red); box-shadow: 0 6px 20px rgba(0,0,0,.25); transition: transform .2s; }
+.yt .play::after { content: ""; position: absolute; left: 31px; top: 24px; border-style: solid; border-width: 14px 0 14px 22px; border-color: transparent transparent transparent #fff; }
+.yt:hover .play { transform: scale(1.08); }
+.tv-txt h3 { font-size: 26px; margin-bottom: 12px; }
+.tv-txt p { color: var(--muted); margin-bottom: 14px; }
+.tv-txt .eyebrow { margin-bottom: 8px; }
+
 /* telefono e tablet */
 @media (max-width: 960px) {
     .hero-in, .contact-in { grid-template-columns: 1fr; }
@@ -191,6 +202,7 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .team, .gear { grid-template-columns: 1fr; }
     .numbers-in { grid-template-columns: repeat(2, 1fr); }
     .quotes { grid-template-columns: 1fr; }
+    .tv { grid-template-columns: 1fr; gap: 24px; }
     .cards-5 > .card, .cards-5 > .card:nth-child(n+4) { grid-column: auto; }
     .cards-5 > .card:last-child { grid-column: 1 / -1; }
     .sociale-box { grid-template-columns: 1fr; gap: 28px; padding: 28px 22px; }
