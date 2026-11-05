@@ -162,6 +162,8 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .cards-5 > .card { grid-column: span 2; }
 .cards-5 > .card:nth-child(n+4) { grid-column: span 3; }
 
+.motto-hero { font-family: 'Bodoni Moda', Georgia, serif; font-style: italic; font-size: clamp(22px, 2.4vw, 28px); color: var(--red); margin: -6px 0 18px; }
+
 /* INCD per il sociale */
 .sociale { padding-top: 0; }
 .sociale-box { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: center; padding: 48px; border-radius: 24px; background: #fdf1ef; border: 1px solid #f6d3ce; border-left: 6px solid var(--red); }
