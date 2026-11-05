@@ -92,6 +92,7 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .clients { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 16px; list-style: none; margin-bottom: 40px; }
 .clients li { display: flex; align-items: center; justify-content: center; height: 88px; padding: 14px; background: #fff; border-radius: 10px; }
 .clients img { max-height: 52px; max-width: 100%; width: auto; object-fit: contain; }
+.clients li.wide { grid-column: span 2; }
 .reviews { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 24px 28px; background: #fff; border-radius: var(--radius); }
 .reviews p { font-size: 18px; font-weight: 700; }
 
