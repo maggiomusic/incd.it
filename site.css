@@ -157,6 +157,23 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .social svg { width: 18px; height: 18px; }
 .legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
 
+.cards-5 { grid-template-columns: repeat(6, 1fr); }
+.cards-5 > .card { grid-column: span 2; }
+.cards-5 > .card:nth-child(n+4) { grid-column: span 3; }
+
+/* INCD per il sociale */
+.sociale { padding-top: 0; }
+.sociale-box { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: center; padding: 48px; border-radius: 24px; background: #fdf1ef; border: 1px solid #f6d3ce; border-left: 6px solid var(--red); }
+.sociale-txt h2 { font-size: clamp(28px, 3.4vw, 40px); margin-bottom: 18px; }
+.sociale-txt p { color: var(--ink); margin-bottom: 14px; }
+.sociale-txt .eyebrow { margin-bottom: 12px; }
+.sociale-points { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.sociale-points li { background: #fff; border: 1px solid #f6d3ce; border-radius: var(--radius); padding: 16px 20px; }
+.sociale-points strong { display: block; font-size: 17px; }
+.sociale-points span { font-size: 15px; color: var(--muted); }
+.eyebrow-head { margin: 20px 0 0; }
+.page-head .eyebrow-head + h1 { margin-top: 6px; }
+
 /* telefono e tablet */
 @media (max-width: 960px) {
     .hero-in, .contact-in { grid-template-columns: 1fr; }
@@ -166,6 +183,9 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .discs-4, .cards-sm { grid-template-columns: repeat(2, 1fr); }
     .team, .gear { grid-template-columns: 1fr; }
     .numbers-in { grid-template-columns: repeat(2, 1fr); }
+    .cards-5 > .card, .cards-5 > .card:nth-child(n+4) { grid-column: auto; }
+    .cards-5 > .card:last-child { grid-column: 1 / -1; }
+    .sociale-box { grid-template-columns: 1fr; gap: 28px; padding: 28px 22px; }
     .foot-in { grid-template-columns: 1fr 1fr; }
     .menu-btn { display: inline-block; }
     #menu { display: none; position: absolute; left: 0; right: 0; top: 72px; flex-direction: column; align-items: stretch; gap: 16px; padding: 20px 24px 28px; background: #fff; border-bottom: 1px solid var(--line); }
@@ -177,6 +197,7 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     body { font-size: 16px; }
     .sec { padding: 56px 0; }
     .cards, .discs, .cards-sm, .videos, .foot-in { grid-template-columns: 1fr; }
+    .cards-5 > .card, .cards-5 > .card:nth-child(n+4), .cards-5 > .card:last-child { grid-column: auto; }
     .discs-4 { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
     .discs-4 .disc h3 { font-size: 16px; }
     .team article { grid-template-columns: 110px 1fr; gap: 16px; }
