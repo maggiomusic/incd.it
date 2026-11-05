@@ -93,6 +93,10 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .clients li { display: flex; align-items: center; justify-content: center; height: 88px; padding: 14px; background: #fff; border-radius: 10px; }
 .clients img { max-height: 52px; max-width: 100%; width: auto; object-fit: contain; }
 .clients li.wide { grid-column: span 2; }
+.quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 20px; }
+.quotes figure { margin: 0; padding: 28px; background: #fff; border-radius: var(--radius); border-top: 4px solid var(--red); display: flex; flex-direction: column; justify-content: space-between; gap: 16px; }
+.quotes blockquote { margin: 0; font-family: 'Bodoni Moda', Georgia, serif; font-size: 19px; line-height: 1.45; color: var(--ink); }
+.quotes figcaption { font-size: 14px; color: var(--muted); }
 .reviews { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 24px 28px; background: #fff; border-radius: var(--radius); }
 .reviews p { font-size: 18px; font-weight: 700; }
 
@@ -186,6 +190,7 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .discs-4, .cards-sm { grid-template-columns: repeat(2, 1fr); }
     .team, .gear { grid-template-columns: 1fr; }
     .numbers-in { grid-template-columns: repeat(2, 1fr); }
+    .quotes { grid-template-columns: 1fr; }
     .cards-5 > .card, .cards-5 > .card:nth-child(n+4) { grid-column: auto; }
     .cards-5 > .card:last-child { grid-column: 1 / -1; }
     .sociale-box { grid-template-columns: 1fr; gap: 28px; padding: 28px 22px; }
