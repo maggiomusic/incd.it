@@ -230,3 +230,19 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .reviews { padding: 20px; }
     .actions .btn { flex: 1 1 100%; }
 }
+
+/* Home a schermata unica */
+.home { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; }
+.home main { flex: 1; display: flex; align-items: center; }
+.home .hero { width: 100%; padding: 32px 0; }
+.home .hero h1 { font-size: clamp(34px, 4.2vw, 54px); }
+.home .hero-img img { max-height: calc(100vh - 200px); }
+.home-foot { padding: 14px 0; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+.home-foot a { color: var(--muted); }
+.home-foot a:hover { color: var(--red); }
+.home main > .hero { min-width: 0; }
+@media (min-width: 901px) and (max-height: 820px) {
+    .home .hero { padding: 16px 0; }
+    .home .hero h1 { font-size: clamp(30px, 3.6vw, 46px); margin-bottom: 12px; }
+    .home .hero .lead { font-size: 17px; }
+}
