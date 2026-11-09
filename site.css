@@ -277,3 +277,4 @@ a.cline:hover strong { color: var(--red); }
 .csocial a { color: var(--ink); }
 .csocial a:hover { color: var(--red); }
 @media (max-width: 760px) { .contact-grid { grid-template-columns: 1fr; } .cbox { padding: 24px; } .cline strong { font-size: 17px; } }
+.disc .more + .more { margin-left: 16px; }
