@@ -260,3 +260,20 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .home .hero .lead { font-size: 17px; }
     .home .hero-img img { max-height: 46vh; }
 }
+
+/* Pagina Contatti */
+.contact-page { padding: 8px 0 72px; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.cbox { background: var(--soft); border-radius: var(--radius); padding: 32px; display: flex; flex-direction: column; }
+.cbox h2 { font-size: 26px; margin-bottom: 12px; }
+.cline { display: block; padding: 14px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.cline span { display: block; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.cline strong { font-size: 19px; font-weight: 700; }
+a.cline:hover strong { color: var(--red); }
+.cbox .btn { margin-top: auto; align-self: flex-start; }
+.cbox .cline + .btn { margin-top: 24px; }
+.csocial { margin-top: 20px; color: var(--muted); }
+.csocial span { font-weight: 700; color: var(--ink); margin-right: 6px; }
+.csocial a { color: var(--ink); }
+.csocial a:hover { color: var(--red); }
+@media (max-width: 760px) { .contact-grid { grid-template-columns: 1fr; } .cbox { padding: 24px; } .cline strong { font-size: 17px; } }
