@@ -300,3 +300,9 @@ a.cline:hover strong { color: var(--red); }
 @media (max-width: 560px) { .score { padding: 14px 12px 10px; } .score img { max-width: 360px; margin: 0 auto; } }
 .score-arrow { margin: 4px 0 !important; text-align: center; font-size: 22px; line-height: 1; color: var(--red); }
 .score-note { font-size: 15px; color: var(--muted); }
+.score-orig { background: #fff; }
+.score-orig .score-tag { color: var(--muted); }
+.orig-wrap { position: relative; display: block; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.orig-wrap img { width: 100%; }
+.orig-mark { position: absolute; left: 11.43%; top: 26.82%; width: 61.81%; height: 29.05%; border: 2px solid var(--red); border-radius: 6px; box-shadow: 0 0 0 9999px rgba(255,255,255,.18); }
+.score-pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
