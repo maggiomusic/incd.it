@@ -112,7 +112,10 @@
         "Consulenza musicale",
         "Vibroacustica",
         "Realtà virtuale con visore VR",
-        "Audio binaurale"
+        "Audio binaurale",
+        "Trascrizioni musicali",
+        "Arrangiamenti strumentali",
+        "Editoria musicale"
       ],
       "sameAs": [
         "https://www.youtube.com/@incdstudio",
@@ -166,6 +169,12 @@
             "itemOffered": {
               "@id": "https://www.incd.it/#servizio-vibroacustica-vr"
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@id": "https://www.incd.it/#servizio-trascrizioni"
+            }
           }
         ]
       },
@@ -217,6 +226,13 @@
           "@type": "Offer",
           "itemOffered": {
             "@id": "https://www.incd.it/#servizio-vibroacustica-vr"
+          },
+          "availability": "https://schema.org/InStock"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@id": "https://www.incd.it/#servizio-trascrizioni"
           },
           "availability": "https://schema.org/InStock"
         }
@@ -1087,6 +1103,57 @@
         }
       ],
       "url": "https://www.incd.it/produzione-discografica"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.incd.it/#servizio-trascrizioni",
+      "name": "Trascrizioni, arrangiamenti e stampa di partiture – INCD STUDIO Milano",
+      "serviceType": "Trascrizioni musicali, arrangiamenti strumentali e stampa di partiture",
+      "description": "Trascrizioni per qualsiasi strumento a partire dalle partiture originali, arrangiamenti strumentali per ogni organico, dal duo all'orchestra, impaginazione e stampa di partiture e parti staccate.",
+      "provider": {
+        "@id": "https://incd.it/#org"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Milano"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Lombardia"
+        },
+        {
+          "@type": "Country",
+          "name": "Italia"
+        }
+      ],
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "Musicisti"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Ensemble"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Orchestre"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Cori"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Bande"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Scuole di musica"
+        }
+      ],
+      "url": "https://www.incd.it/trascrizioni-arrangiamenti-partiture"
     },
     {
       "@type": "Service",

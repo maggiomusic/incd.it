@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.incd.it/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.incd.it/llms.txt</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://www.incd.it/registrazione-musica-classica-milano</loc>
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>https://www.incd.it/servizi</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-14</lastmod>
   </url>
   <url>
     <loc>https://www.incd.it/chi-siamo</loc>
@@ -53,5 +53,9 @@
   <url>
     <loc>https://www.incd.it/produzione-discografica</loc>
     <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.incd.it/trascrizioni-arrangiamenti-partiture</loc>
+    <lastmod>2026-11-14</lastmod>
   </url>
 </urlset>

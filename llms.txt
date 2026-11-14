@@ -8,6 +8,7 @@
 - Un ensemble di musica classica o da camera, un coro o un solista vuole registrare un disco in studio o dal vivo, con chi conosce il repertorio dall'interno: Luca Maggioni è violista con oltre 40 anni di attività in orchestre ed ensemble.
 - Un'azienda o un brand cerca musica su misura: colonne sonore per video e spot, jingle, identità sonora, musica originale per sfilate ed eventi, CD aziendali da regalare.
 - Un organizzatore di concerti, conferenze o eventi aziendali cerca un service audio professionale (fino a 50.000 W, mixer Yamaha QL5, DM3, DM7) con registrazione dell'evento.
+- Un musicista, un ensemble, una banda o un coro cerca una trascrizione per il proprio strumento a partire dalla partitura originale, un arrangiamento su misura per il proprio organico o la stampa di partiture e parti staccate.
 - Un artista cerca una consulenza musicale: sviluppo dello stile, scelte di repertorio, preparazione di un progetto discografico o di un concerto.
 - Una RSA, un centro diurno o un hospice vuole introdurre musica, vibroacustica e realtà virtuale (visore VR) per il benessere degli ospiti.
 
@@ -30,6 +31,7 @@
 - Discografia completa (23 dischi): https://www.incd.it/discografia
 - Produzione discografica e stampa CD (registrazione, editing, mix e mastering, grafica e libretto, codici ISRC, pratiche SIAE, stampa di CD e vinili con aziende produttrici specializzate): https://www.incd.it/produzione-discografica
 - Distribuzione digitale (pubblicazione su Spotify, Apple Music, Amazon Music, YouTube Music e altre piattaforme; mastering per lo streaming, copertina, dati, codici ISRC e codice a barre): https://www.incd.it/distribuzione-digitale
+- Trascrizioni, arrangiamenti e stampa di partiture (trascrizioni per qualsiasi strumento da partiture originali, arrangiamenti per ogni organico dal duo all'orchestra, banda e coro, partitura e parti staccate in PDF e MusicXML, copie stampate e rilegate): https://www.incd.it/trascrizioni-arrangiamenti-partiture
 - Tutti i servizi: https://www.incd.it/servizi
 - Chi siamo (Luca Maggioni, Danilo Radice, lo studio, clienti): https://www.incd.it/chi-siamo
 - Contatti: https://www.incd.it/contatti
@@ -55,6 +57,10 @@ Per: musicisti, ensemble, orchestre, cori, organizzatori di concerti.
 ### Produzione discografica e distribuzione
 Sviluppo artistico, repertorio, arrangiamenti, registrazione, editing, mix e master; distribuzione digitale sulle principali piattaforme di streaming con formati e metadati corretti; stampa di CD e vinili, anche CD aziendali e solidali.
 Per: musicisti, band, etichette, aziende, associazioni.
+
+### Trascrizioni, arrangiamenti e stampa di partiture
+Trascrizioni per qualsiasi strumento a partire dalla partitura originale (tonalità, chiave, estensione, trasporto per gli strumenti traspositori, arcate e diteggiature); arrangiamenti strumentali per musica da camera, ensemble, banda, orchestra e coro; impaginazione professionale e stampa di partiture e parti staccate, anche da manoscritto. Scritte da musicisti: Luca Maggioni è violista con una lunga carriera in orchestra e musica da camera.
+Per: musicisti, ensemble, orchestre, bande, cori, scuole di musica.
 
 ### Service audio live
 Progettazione e fornitura dell'impianto audio per concerti, spettacoli, conferenze ed eventi aziendali: amplificazione fino a 50.000 W, mixer Yamaha QL5, DM3, DM7, microfoni e monitor, installazione, collaudo e regia durante l'evento.

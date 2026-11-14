@@ -1,0 +1,417 @@
+<svg viewBox="0 0 502 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" id="e1scarzx">
+   <desc>Engraved by Verovio 6.4.1-fbe8f46</desc>
+   <defs>
+      <g id="E062-e1scarzx">
+         <path transform="scale(1,-1)" d="M582 -120c0 32 26 58 58 58s58 -26 58 -58s-26 -58 -58 -58s-58 26 -58 58zM582 120c0 32 26 58 58 58s58 -26 58 -58s-26 -58 -58 -58s-58 26 -58 58zM158 96c51 0 73 -14 88 -49l16 -39c0 -17 -2 -30 -7 -40c-3 -11 -10 -21 -19 -31c-17 -18 -49 -43 -84 -43 c-55 0 -77 13 -112 44c-24 21 -35 55 -35 100c0 46 14 81 32 112c30 52 71 79 137 93l36 6l26 2c154 0 235 -68 274 -182c11 -32 18 -68 18 -107c0 -103 -26 -182 -68 -250c-89 -145 -234 -230 -412 -288l-30 -5c-9 0 -14 3 -14 8c3 10 5 11 10 16c35 15 70 30 96 44l78 43 c96 57 162 136 197 258c9 33 17 60 22 100c3 22 5 35 6 39c-7 69 -16 115 -23 140s-4 22 -16 40c-8 12 -19 23 -31 34c-24 21 -62 44 -118 44c-48 0 -84 -8 -113 -28c-28 -19 -42 -44 -42 -73v-16c2 -5 3 -9 4 -11c24 22 52 39 84 39z" />
+      </g>
+      <g id="E262-e1scarzx">
+         <path transform="scale(1,-1)" d="M136 186v169h17v-164l44 14v-91l-44 -14v-165l44 12v-91l-44 -13v-155h-17v150l-76 -22v-155h-17v149l-43 -13v90l43 14v167l-43 -14v92l43 13v169h17v-163zM60 73v-167l76 22v168z" />
+      </g>
+      <g id="E084-e1scarzx">
+         <path transform="scale(1,-1)" d="M20 -78c84 97 114 180 134 329h170c-13 -32 -82 -132 -99 -151l-84 -97c-33 -36 -59 -63 -80 -81h162v102l127 123v-225h57v-39h-57v-34c0 -43 19 -65 57 -65v-34h-244v36c48 0 60 26 60 70v27h-203v39z" />
+      </g>
+      <g id="E0A4-e1scarzx">
+         <path transform="scale(1,-1)" d="M0 -39c0 68 73 172 200 172c66 0 114 -37 114 -95c0 -84 -106 -171 -218 -171c-64 0 -96 30 -96 94z" />
+      </g>
+   </defs>
+   <style type="text/css">#e1scarzx g.ending, #e1scarzx g.fing, #e1scarzx g.reh, #e1scarzx g.tempo {font-weight:bold;}#e1scarzx g.dir, #e1scarzx g.dynam, #e1scarzx g.mNum {font-style:italic;}#e1scarzx g.label {font-weight:normal;}#e1scarzx ellipse, #e1scarzx path, #e1scarzx polygon, #e1scarzx polyline, #e1scarzx rect {stroke:currentColor}#e1scarzx g.cursor {fill:dodgerblue; color:dodgerblue;}#e1scarzx g.cursor.chord {fill:limegreen; color:limegreen;}#e1scarzx g.placeholder {visibility:hidden}</style>
+   <svg class="definition-scale" color="black" font-family="Times, serif" viewBox="0 0 12540 2290">
+      <g class="page-margin" transform="translate(200, 200)">
+         <g id="f105q0o6" class="mdiv pageMilestone" />
+         <g id="g1qp097j" class="score pageMilestone" />
+         <g id="o17g5bp5" class="system">
+            <g id="section-L1F1" class="section placeholder systemMilestone">
+               <ellipse cx="0" cy="0" rx="90" ry="90" />
+            </g>
+            <g id="measure-L1" class="measure">
+               <g id="staff-L1F1" class="staff">
+                  <path d="M0 540 L6721 540" stroke-width="13" />
+                  <path d="M0 720 L6721 720" stroke-width="13" />
+                  <path d="M0 900 L6721 900" stroke-width="13" />
+                  <path d="M0 1080 L6721 1080" stroke-width="13" />
+                  <path d="M0 1260 L6721 1260" stroke-width="13" />
+                  <g id="i1bzo4ru" class="clef">
+                     <use href="#E062-e1scarzx" transform="translate(88, 720) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="j1xeae1e" class="keySig">
+                     <g id="k1bzjy0v" class="keyAccid">
+                        <use href="#E262-e1scarzx" transform="translate(769, 720) scale(0.72, 0.72)" />
+                     </g>
+                  </g>
+                  <g id="l1uj3goj" class="meterSig">
+                     <use href="#E084-e1scarzx" transform="translate(1076, 720) scale(0.72, 0.72)" />
+                     <use href="#E084-e1scarzx" transform="translate(1076, 1080) scale(0.72, 0.72)" />
+                  </g>
+                  <g id="layer-L1F1N1" class="layer">
+                     <g id="beam-L7F1-L10F1" class="beam">
+                        <polygon points="1638,1890 2604,1530 2604,1440 1638,1800" />
+                        <polygon points="1638,1755 1963,1635 1963,1545 1638,1665" />
+                        <polygon points="1963,1635 2279,1515 2279,1425 1963,1545" />
+                        <polygon points="2279,1515 2604,1395 2604,1305 2279,1425" />
+                        <g id="note-L7F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(1638, 1260) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="zqbuegm" class="stem">
+                              <path d="M1647 1288 L1647 1872" stroke-width="18" />
+                           </g>
+                           <g id="accid-L7F1" class="accid" />
+                        </g>
+                        <g id="note-L8F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(1954, 900) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="a1sdldc1" class="stem">
+                              <path d="M1963 928 L1963 1752" stroke-width="18" />
+                           </g>
+                           <g id="accid-L8F1" class="accid" />
+                        </g>
+                        <g id="note-L9F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(2270, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="b1yl4nlc" class="stem">
+                              <path d="M2279 478 L2279 1632" stroke-width="18" />
+                           </g>
+                           <g id="accid-L9F1" class="accid" />
+                        </g>
+                        <g id="note-L10F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(2586, 540) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="cf29gzk" class="stem">
+                              <path d="M2595 568 L2595 1512" stroke-width="18" />
+                           </g>
+                           <g id="accid-L10F1" class="accid" />
+                        </g>
+                     </g>
+                     <g id="beam-L11F1-L14F1" class="beam">
+                        <polygon points="2902,1485 3868,1485 3868,1395 2902,1395" />
+                        <polygon points="2902,1350 3227,1350 3227,1260 2902,1260" />
+                        <polygon points="3227,1350 3543,1350 3543,1260 3227,1260" />
+                        <polygon points="3543,1350 3868,1350 3868,1260 3543,1260" />
+                        <g id="note-L11F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(2902, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="d1mjf9kt" class="stem">
+                              <path d="M2911 478 L2911 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L11F1" class="accid" />
+                        </g>
+                        <g id="note-L12F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(3218, 900) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="e1uffjxl" class="stem">
+                              <path d="M3227 928 L3227 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L12F1" class="accid" />
+                        </g>
+                        <g id="note-L13F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(3534, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="fisgy1d" class="stem">
+                              <path d="M3543 478 L3543 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L13F1" class="accid" />
+                        </g>
+                        <g id="note-L14F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(3850, 900) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="g1btjzja" class="stem">
+                              <path d="M3859 928 L3859 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L14F1" class="accid" />
+                        </g>
+                     </g>
+                     <g id="beam-L15F1-L18F1" class="beam">
+                        <polygon points="4166,1890 5132,1530 5132,1440 4166,1800" />
+                        <polygon points="4166,1755 4491,1635 4491,1545 4166,1665" />
+                        <polygon points="4491,1635 4807,1515 4807,1425 4491,1545" />
+                        <polygon points="4807,1515 5132,1395 5132,1305 4807,1425" />
+                        <g id="note-L15F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(4166, 1260) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="h1498iy" class="stem">
+                              <path d="M4175 1288 L4175 1872" stroke-width="18" />
+                           </g>
+                           <g id="accid-L15F1" class="accid" />
+                        </g>
+                        <g id="note-L16F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(4482, 900) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="i1jjuxcj" class="stem">
+                              <path d="M4491 928 L4491 1752" stroke-width="18" />
+                           </g>
+                           <g id="accid-L16F1" class="accid" />
+                        </g>
+                        <g id="note-L17F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(4798, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="j1ytj5p4" class="stem">
+                              <path d="M4807 478 L4807 1632" stroke-width="18" />
+                           </g>
+                           <g id="accid-L17F1" class="accid" />
+                        </g>
+                        <g id="note-L18F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(5114, 540) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="k1un19ke" class="stem">
+                              <path d="M5123 568 L5123 1512" stroke-width="18" />
+                           </g>
+                           <g id="accid-L18F1" class="accid" />
+                        </g>
+                     </g>
+                     <g id="beam-L19F1-L22F1" class="beam">
+                        <polygon points="5430,1485 6396,1485 6396,1395 5430,1395" />
+                        <polygon points="5430,1350 5755,1350 5755,1260 5430,1260" />
+                        <polygon points="5755,1350 6071,1350 6071,1260 5755,1260" />
+                        <polygon points="6071,1350 6396,1350 6396,1260 6071,1260" />
+                        <g id="note-L19F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(5430, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="lfveojy" class="stem">
+                              <path d="M5439 478 L5439 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L19F1" class="accid" />
+                        </g>
+                        <g id="note-L20F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(5746, 900) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="mfy5pw6" class="stem">
+                              <path d="M5755 928 L5755 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L20F1" class="accid" />
+                        </g>
+                        <g id="note-L21F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(6062, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="n1u2482j" class="stem">
+                              <path d="M6071 478 L6071 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L21F1" class="accid" />
+                        </g>
+                        <g id="note-L22F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(6378, 900) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="oov5vse" class="stem">
+                              <path d="M6387 928 L6387 1467" stroke-width="18" />
+                           </g>
+                           <g id="accid-L22F1" class="accid" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="c116z61" class="barLine">
+                  <path d="M6708 540 L6708 1260" stroke-width="27" />
+               </g>
+            </g>
+            <g id="measure-L23" class="measure">
+               <g id="staff-L23F1N1" class="staff">
+                  <path d="M6721 540 L12146 540" stroke-width="13" />
+                  <path d="M6721 720 L12146 720" stroke-width="13" />
+                  <path d="M6721 900 L12146 900" stroke-width="13" />
+                  <path d="M6721 1080 L12146 1080" stroke-width="13" />
+                  <path d="M6721 1260 L12146 1260" stroke-width="13" />
+                  <g class="ledgerLines above">
+                     <path d="M7485 360 L7807 360" stroke-width="22" />
+                     <path d="M8117 360 L8439 360" stroke-width="22" />
+                     <path d="M8749 360 L9071 360" stroke-width="22" />
+                     <path d="M10013 360 L10335 360" stroke-width="22" />
+                     <path d="M10645 360 L10967 360" stroke-width="22" />
+                     <path d="M11277 360 L11599 360" stroke-width="22" />
+                  </g>
+                  <g id="layer-L23F1N1" class="layer">
+                     <g id="beam-L24F1-L27F1" class="beam">
+                        <polygon points="6901,1890 7867,1530 7867,1440 6901,1800" />
+                        <polygon points="6901,1755 7226,1635 7226,1545 6901,1665" />
+                        <polygon points="7226,1635 7542,1515 7542,1425 7226,1545" />
+                        <polygon points="7542,1515 7867,1395 7867,1305 7542,1425" />
+                        <g id="note-L24F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(6901, 1260) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="pj95fq4" class="stem">
+                              <path d="M6910 1288 L6910 1872" stroke-width="18" />
+                           </g>
+                           <g id="accid-L24F1" class="accid" />
+                        </g>
+                        <g id="note-L25F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(7217, 810) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="q11jbtyv" class="stem">
+                              <path d="M7226 838 L7226 1752" stroke-width="18" />
+                           </g>
+                           <g id="accid-L25F1" class="accid" />
+                        </g>
+                        <g id="note-L26F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(7533, 360) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="r1i0vz3z" class="stem">
+                              <path d="M7542 388 L7542 1632" stroke-width="18" />
+                           </g>
+                           <g id="accid-L26F1" class="accid" />
+                        </g>
+                        <g id="note-L27F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(7849, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="s11860z7" class="stem">
+                              <path d="M7858 478 L7858 1512" stroke-width="18" />
+                           </g>
+                           <g id="accid-L27F1" class="accid" />
+                        </g>
+                     </g>
+                     <g id="beam-L28F1-L31F1" class="beam">
+                        <polygon points="8165,1440 9131,1440 9131,1350 8165,1350" />
+                        <polygon points="8165,1305 8490,1305 8490,1215 8165,1215" />
+                        <polygon points="8490,1305 8806,1305 8806,1215 8490,1215" />
+                        <polygon points="8806,1305 9131,1305 9131,1215 8806,1215" />
+                        <g id="note-L28F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(8165, 360) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="thf1b4t" class="stem">
+                              <path d="M8174 388 L8174 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L28F1" class="accid" />
+                        </g>
+                        <g id="note-L29F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(8481, 810) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="u7d49nx" class="stem">
+                              <path d="M8490 838 L8490 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L29F1" class="accid" />
+                        </g>
+                        <g id="note-L30F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(8797, 360) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="v15k48ji" class="stem">
+                              <path d="M8806 388 L8806 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L30F1" class="accid" />
+                        </g>
+                        <g id="note-L31F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(9113, 810) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="w1v6yhjx" class="stem">
+                              <path d="M9122 838 L9122 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L31F1" class="accid" />
+                        </g>
+                     </g>
+                     <g id="beam-L32F1-L35F1" class="beam">
+                        <polygon points="9429,1890 10395,1530 10395,1440 9429,1800" />
+                        <polygon points="9429,1755 9754,1635 9754,1545 9429,1665" />
+                        <polygon points="9754,1635 10070,1515 10070,1425 9754,1545" />
+                        <polygon points="10070,1515 10395,1395 10395,1305 10070,1425" />
+                        <g id="note-L32F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(9429, 1260) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="x16foqn2" class="stem">
+                              <path d="M9438 1288 L9438 1872" stroke-width="18" />
+                           </g>
+                           <g id="accid-L32F1" class="accid" />
+                        </g>
+                        <g id="note-L33F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(9745, 810) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="y7bhtvc" class="stem">
+                              <path d="M9754 838 L9754 1752" stroke-width="18" />
+                           </g>
+                           <g id="accid-L33F1" class="accid" />
+                        </g>
+                        <g id="note-L34F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(10061, 360) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="zkjt1zd" class="stem">
+                              <path d="M10070 388 L10070 1632" stroke-width="18" />
+                           </g>
+                           <g id="accid-L34F1" class="accid" />
+                        </g>
+                        <g id="note-L35F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(10377, 450) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="aah8uqd" class="stem">
+                              <path d="M10386 478 L10386 1512" stroke-width="18" />
+                           </g>
+                           <g id="accid-L35F1" class="accid" />
+                        </g>
+                     </g>
+                     <g id="beam-L36F1-L39F1" class="beam">
+                        <polygon points="10693,1440 11659,1440 11659,1350 10693,1350" />
+                        <polygon points="10693,1305 11018,1305 11018,1215 10693,1215" />
+                        <polygon points="11018,1305 11334,1305 11334,1215 11018,1215" />
+                        <polygon points="11334,1305 11659,1305 11659,1215 11334,1215" />
+                        <g id="note-L36F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(10693, 360) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="b1uvjhmw" class="stem">
+                              <path d="M10702 388 L10702 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L36F1" class="accid" />
+                        </g>
+                        <g id="note-L37F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(11009, 810) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="c1rd2cdh" class="stem">
+                              <path d="M11018 838 L11018 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L37F1" class="accid" />
+                        </g>
+                        <g id="note-L38F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(11325, 360) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="dxaz9h4" class="stem">
+                              <path d="M11334 388 L11334 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L38F1" class="accid" />
+                        </g>
+                        <g id="note-L39F1" class="note">
+                           <g class="notehead">
+                              <use href="#E0A4-e1scarzx" transform="translate(11641, 810) scale(0.72, 0.72)" />
+                           </g>
+                           <g id="e1yc55tj" class="stem">
+                              <path d="M11650 838 L11650 1422" stroke-width="18" />
+                           </g>
+                           <g id="accid-L39F1" class="accid" />
+                        </g>
+                     </g>
+                  </g>
+               </g>
+               <g id="xfwjk1t" class="barLine">
+                  <path d="M11971 540 L11971 1260" stroke-width="27" />
+                  <path d="M12101 540 L12101 1260" stroke-width="90" />
+               </g>
+            </g>
+            <g id="r1ythnur" class="systemMilestoneEnd section-L1F1" />
+         </g>
+         <g id="s1xqadas" class="pageMilestoneEnd g1qp097j" />
+         <g id="t175werv" class="pageMilestoneEnd f105q0o6" />
+      </g>
+   </svg>
+</svg>
