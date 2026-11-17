@@ -321,3 +321,6 @@ a.cline:hover strong { color: var(--red); }
 .studio-video .yt, .studio-video iframe { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: var(--radius); overflow: hidden; background: #000; }
 .block .gear { grid-template-columns: repeat(2, 1fr); }
 @media (max-width: 560px) { .gallery { grid-template-columns: 1fr; } .gal-item, .gal-item:nth-child(1), .gal-item:nth-child(2) { grid-column: auto; } .block .gear { grid-template-columns: 1fr; } }
+.studio-videos { display: grid; gap: 20px; }
+.studio-video { margin: 0; }
+.studio-video figcaption { margin-top: 8px; font-size: 15px; color: var(--muted); }
