@@ -355,3 +355,6 @@ a.cline:hover strong { color: var(--red); }
 .quotes-rev figure { justify-content: flex-start; }
 .quotes-rev blockquote { font-family: inherit; font-size: 17px; line-height: 1.55; flex: 1; }
 .quotes-rev figcaption strong { color: var(--ink); }
+
+/* Servizi: frase di apertura come titolo */
+.page-head h1.h1-intro { font-size: clamp(26px, 3.2vw, 38px); line-height: 1.2; max-width: 820px; }
