@@ -339,3 +339,12 @@ a.cline:hover strong { color: var(--red); }
     .trust-logos li { flex: 0 0 auto; width: 74px; }
     .trust-logos img { max-height: 26px; }
 }
+
+/* Chi siamo: recensioni Google */
+.rev-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px 24px; flex-wrap: wrap; margin-bottom: 32px; }
+.rev-score { font-size: 17px; color: var(--muted); }
+.rev-score strong { color: var(--ink); }
+.stars { color: #f5b400; letter-spacing: 2px; font-size: 18px; line-height: 1; }
+.quotes-rev figure { justify-content: flex-start; }
+.quotes-rev blockquote { font-family: inherit; font-size: 17px; line-height: 1.55; flex: 1; }
+.quotes-rev figcaption strong { color: var(--ink); }
