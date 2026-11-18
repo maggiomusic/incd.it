@@ -70,6 +70,7 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .card h3 { font-size: 21px; }
 .card p { color: var(--muted); flex: 1; }
 .cards-sm { grid-template-columns: repeat(4, 1fr); }
+.cards-4 { grid-template-columns: repeat(4, 1fr); }
 .card-sm { padding: 20px; }
 .card-sm h3 { font-size: 18px; }
 
