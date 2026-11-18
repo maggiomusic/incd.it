@@ -70,7 +70,9 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 .card h3 { font-size: 21px; }
 .card p { color: var(--muted); flex: 1; }
 .cards-sm { grid-template-columns: repeat(4, 1fr); }
-.cards-4 { grid-template-columns: repeat(4, 1fr); }
+.cards-7 { grid-template-columns: repeat(12, 1fr); }
+.cards-7 > .card { grid-column: span 3; }
+.cards-7 > .card:nth-child(n+5) { grid-column: span 4; }
 .card-sm { padding: 20px; }
 .card-sm h3 { font-size: 18px; }
 
@@ -211,6 +213,9 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .tv { grid-template-columns: 1fr; gap: 24px; }
     .cards-5 > .card, .cards-5 > .card:nth-child(n+4) { grid-column: auto; }
     .cards-5 > .card:last-child { grid-column: 1 / -1; }
+    .cards-7 { grid-template-columns: repeat(2, 1fr); }
+    .cards-7 > .card, .cards-7 > .card:nth-child(n+5) { grid-column: auto; }
+    .cards-7 > .card:last-child { grid-column: 1 / -1; }
     .sociale-box { grid-template-columns: 1fr; gap: 28px; padding: 28px 22px; }
     .foot-in { grid-template-columns: 1fr 1fr; }
     .menu-btn { display: inline-block; }
@@ -224,6 +229,7 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
     .sec { padding: 56px 0; }
     .cards, .discs, .cards-sm, .videos, .foot-in { grid-template-columns: 1fr; }
     .cards-5 > .card, .cards-5 > .card:nth-child(n+4), .cards-5 > .card:last-child { grid-column: auto; }
+    .cards-7, .cards-7 > .card:last-child { grid-template-columns: 1fr; grid-column: auto; }
     .discs-4 { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
     .discs-4 .disc h3 { font-size: 16px; }
     .team article { grid-template-columns: 110px 1fr; gap: 16px; }
