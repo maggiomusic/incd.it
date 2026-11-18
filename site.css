@@ -358,3 +358,10 @@ a.cline:hover strong { color: var(--red); }
 
 /* Servizi: frase di apertura come titolo */
 .page-head h1.h1-intro { font-size: clamp(26px, 3.2vw, 38px); line-height: 1.2; max-width: 820px; }
+
+/* Foto dentro i blocchi */
+.block-photo { margin: 20px 0 18px; }
+.block-photo img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+.block-photo figcaption { margin-top: 8px; font-size: 15px; color: var(--muted); }
+.block .videos-3 { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 560px) { .block .videos-3 { grid-template-columns: 1fr; } }
