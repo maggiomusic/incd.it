@@ -323,3 +323,16 @@ a.cline:hover strong { color: var(--red); }
 .studio-videos { display: grid; gap: 20px; }
 .studio-video { margin: 0; }
 .studio-video figcaption { margin-top: 8px; font-size: 15px; color: var(--muted); }
+
+/* Home: fascia loghi clienti su una riga */
+.trust-strip { margin-top: clamp(16px, 3vh, 36px); padding-top: clamp(12px, 2.2vh, 24px); border-top: 1px solid var(--line); }
+.trust-label { margin-bottom: 14px; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-align: center; }
+.trust-logos { list-style: none; display: grid; grid-template-columns: repeat(13, minmax(0, 1fr)); align-items: center; gap: clamp(10px, 1.6vw, 28px); }
+.trust-logos li { display: flex; align-items: center; justify-content: center; min-width: 0; }
+.trust-logos img { display: block; width: auto; height: auto; max-width: 100%; max-height: clamp(20px, 2.4vw, 34px); object-fit: contain; filter: grayscale(1); opacity: .65; transition: filter .2s, opacity .2s; }
+.trust-logos li:hover img { filter: none; opacity: 1; }
+@media (max-width: 900px) {
+    .trust-logos { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px 22px; }
+    .trust-logos li { flex: 0 0 auto; width: 74px; }
+    .trust-logos img { max-height: 26px; }
+}
