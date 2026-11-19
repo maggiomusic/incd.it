@@ -410,3 +410,7 @@ a.cline:hover strong { color: var(--red); }
 .gear-note { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--line); max-width: 900px; }
 .gear-note h3 { font-size: 19px; margin-bottom: 10px; }
 .gear-note p { color: var(--muted); }
+.studio-videos { grid-template-columns: repeat(3, 1fr); }
+@media (min-width: 901px) { .narrow > .block > .studio-videos { grid-column: 1 / -1; max-width: none; margin-top: 24px; } }
+@media (max-width: 760px) { .studio-videos { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .studio-videos { grid-template-columns: 1fr; } }
