@@ -367,3 +367,7 @@ a.cline:hover strong { color: var(--red); }
 @media (max-width: 560px) { .block .videos-3 { grid-template-columns: 1fr; } }
 .contact p + p { margin-top: 10px; }
 .contact .contact-claim { font-weight: 700; }
+.photo-set { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0 18px; }
+.photo-set .block-photo { margin: 0; }
+.photo-set .wide { grid-column: 1 / -1; }
+@media (max-width: 560px) { .photo-set { grid-template-columns: 1fr; } }
