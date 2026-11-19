@@ -381,3 +381,7 @@ a.cline:hover strong { color: var(--red); }
 @media (min-width: 901px) { .narrow > .block > .strip { grid-column: 1 / -1; max-width: none; } }
 @media (max-width: 760px) { .strip-4, .strip-5 { grid-template-columns: 1fr 1fr; } .strip .wide { grid-column: 1 / -1; } }
 .block ul + p { margin-top: 14px; }
+.block ul.cols-2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 6px; margin-top: 18px; }
+@media (min-width: 901px) { .narrow > .block > ul.cols-2 { grid-column: 1 / -1; max-width: none; } }
+@media (max-width: 760px) { .block ul.cols-2 { grid-template-columns: 1fr; } }
+@media (min-width: 901px) { .narrow > .block > ul.cols-2 + p { grid-column: 1 / -1; max-width: none; } }
