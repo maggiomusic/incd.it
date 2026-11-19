@@ -371,3 +371,11 @@ a.cline:hover strong { color: var(--red); }
 .photo-set .block-photo { margin: 0; }
 .photo-set .wide { grid-column: 1 / -1; }
 @media (max-width: 560px) { .photo-set { grid-template-columns: 1fr; } }
+.text-media { display: grid; grid-template-columns: 1fr 300px; gap: 28px; align-items: start; }
+.media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.media-grid .block-photo { margin: 0; }
+.media-grid .wide { grid-column: 1 / -1; }
+.media-grid figcaption { font-size: 13px; line-height: 1.35; margin-top: 5px; }
+.text-media + p { margin-top: 18px; }
+@media (max-width: 760px) { .text-media { grid-template-columns: 1fr; } .media-grid { grid-template-columns: repeat(4, 1fr); } .media-grid .wide { grid-column: 1 / -1; } }
+@media (max-width: 480px) { .media-grid { grid-template-columns: 1fr 1fr; } }
