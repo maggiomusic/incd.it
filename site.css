@@ -422,3 +422,16 @@ a.cline:hover strong { color: var(--red); }
 .score-h .score-note { margin: 0; font-size: 14px; line-height: 1.55; }
 @media (max-width: 900px) { .score-h .score-row1 { grid-template-columns: 1fr; } .score-h .score-row1 .score-arrow { transform: rotate(90deg); } .score-h .score-row2 { grid-template-columns: 1fr 1fr; } .score-h .score-note { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .score-h .score-row2 { grid-template-columns: 1fr; } }
+/* Pagina aziende */
+.cta-row { margin-top: 22px; }
+.cases { display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
+.case { margin: 0; }
+.case img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); margin-bottom: 10px; }
+.case h3 { font-size: 16px; margin-bottom: 4px; }
+.block .case p { font-size: 14px; color: var(--muted); line-height: 1.5; margin: 0; }
+@media (min-width: 901px) { .narrow > .block > .cases, .narrow > .block > ol.cols-2 { grid-column: 1 / -1; max-width: none; } }
+.block ol.cols-2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 6px; padding-left: 20px; }
+@media (max-width: 960px) { .cases { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 760px) { .block ol.cols-2 { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .cases { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 901px) { .narrow > .block > .cta-wide { grid-column: 1 / -1; } }
