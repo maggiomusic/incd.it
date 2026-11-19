@@ -365,3 +365,5 @@ a.cline:hover strong { color: var(--red); }
 .block-photo figcaption { margin-top: 8px; font-size: 15px; color: var(--muted); }
 .block .videos-3 { grid-template-columns: repeat(3, 1fr); gap: 16px; }
 @media (max-width: 560px) { .block .videos-3 { grid-template-columns: 1fr; } }
+.contact p + p { margin-top: 10px; }
+.contact .contact-claim { font-weight: 700; }
