@@ -407,3 +407,6 @@ a.cline:hover strong { color: var(--red); }
 .videos-track .video { flex: 0 0 330px; scroll-snap-align: start; }
 .carousel-videos .car-btn { top: 92px; }
 @media (max-width: 560px) { .videos-track .video { flex-basis: 80%; } }
+.gear-note { margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--line); max-width: 900px; }
+.gear-note h3 { font-size: 19px; margin-bottom: 10px; }
+.gear-note p { color: var(--muted); }
