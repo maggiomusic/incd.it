@@ -389,4 +389,11 @@ a.cline:hover strong { color: var(--red); }
 @media (min-width: 901px) { .narrow > .block > p.note-wide { grid-column: 1 / -1; max-width: none; } }
 @media (min-width: 901px) { .narrow > .block > .gear-wide { grid-column: 1 / -1; max-width: none; margin-top: 24px; } .block .gear-wide .gear { grid-template-columns: repeat(5, 1fr); gap: 26px 26px; } .block .gear-wide dd { font-size: 15px; line-height: 1.5; } }
 @media (min-width: 901px) and (max-width: 1100px) { .block .gear-wide .gear { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 901px) { .narrow > .block > .gallery-box { grid-column: 1 / -1; max-width: none; margin-top: 24px; } }
+/* Galleria scorrevole */
+.carousel { position: relative; margin-top: 8px; }
+.car-track { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; padding-bottom: 6px; scrollbar-width: thin; }
+.car-track .gal-item { flex: 0 0 auto; height: 240px; aspect-ratio: 4 / 3; scroll-snap-align: start; }
+.car-btn { position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 40px; height: 40px; border: 0; border-radius: 50%; background: rgba(255,255,255,.92); color: #111; font-size: 26px; line-height: 1; cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.car-prev { left: 8px; } .car-next { right: 8px; }
+@media (min-width: 901px) { .narrow > .block > .carousel { grid-column: 1 / -1; max-width: none; margin-top: 24px; } }
+@media (max-width: 560px) { .car-track .gal-item { height: 190px; } .car-btn { display: none; } }
