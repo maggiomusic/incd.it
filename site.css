@@ -403,3 +403,7 @@ a.cline:hover strong { color: var(--red); }
 .discs-track .disc { flex: 0 0 280px; scroll-snap-align: start; }
 .carousel-discs .car-btn { top: 140px; }
 @media (max-width: 560px) { .discs-track .disc { flex-basis: 78%; } }
+.videos-track { gap: 18px; padding-bottom: 10px; }
+.videos-track .video { flex: 0 0 330px; scroll-snap-align: start; }
+.carousel-videos .car-btn { top: 92px; }
+@media (max-width: 560px) { .videos-track .video { flex-basis: 80%; } }
