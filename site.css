@@ -282,6 +282,8 @@ h1, h2 { font-family: 'Bodoni Moda', Georgia, serif; font-weight: 700; letter-sp
 a.cline:hover strong { color: var(--red); }
 .cbox .btn { margin-top: auto; align-self: flex-start; }
 .cbox .cline + .btn { margin-top: 24px; }
+.cnote { margin-top: 14px; color: var(--muted); }
+.cmap { display: block; width: 100%; height: 280px; border: 0; border-radius: var(--radius); margin-top: 16px; }
 .csocial { margin-top: 20px; color: var(--muted); }
 .csocial span { font-weight: 700; color: var(--ink); margin-right: 6px; }
 .csocial a { color: var(--ink); }
@@ -422,6 +424,8 @@ a.cline:hover strong { color: var(--red); }
 .score-h .score-row1 { display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px; align-items: center; }
 .score-h .score-row2 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-top: 16px; align-items: start; }
 .score-h .score-arrow { font-size: 26px; }
+.score-demo.score-h > .score-note { margin-top: 14px; }
+.score-demo.score-h .score img { max-width: none; }
 .score-h .score-note { margin: 0; font-size: 14px; line-height: 1.55; }
 @media (max-width: 900px) { .score-h .score-row1 { grid-template-columns: 1fr; } .score-h .score-row1 .score-arrow { transform: rotate(90deg); } .score-h .score-row2 { grid-template-columns: 1fr 1fr; } .score-h .score-note { grid-column: 1 / -1; } }
 @media (max-width: 560px) { .score-h .score-row2 { grid-template-columns: 1fr; } }
