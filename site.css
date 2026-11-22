@@ -283,7 +283,6 @@ a.cline:hover strong { color: var(--red); }
 .cbox .btn { margin-top: auto; align-self: flex-start; }
 .cbox .cline + .btn { margin-top: 24px; }
 .cnote { margin-top: 14px; color: var(--muted); }
-.cmap { display: block; width: 100%; height: 280px; border: 0; border-radius: var(--radius); margin-top: 16px; }
 .csocial { margin-top: 20px; color: var(--muted); }
 .csocial span { font-weight: 700; color: var(--ink); margin-right: 6px; }
 .csocial a { color: var(--ink); }
